@@ -1,5 +1,5 @@
 class Role(object):
 
-    def __init__(self, name, school):
+    def __init__(self, name, career):
         self.name = name
-        self.school = school
+        self.career = career
