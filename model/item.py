@@ -1,4 +1,4 @@
 class Item(object):
     
-    def __init(self):
-        pass
+    def __init__(self, name):
+        self.name = name

@@ -12,7 +12,8 @@ STR_CHOOSE          = '>> 选择[0-%d]：'
 STR_INPUT_NAME      = '>> 输入昵称：'
 STR_INPUT_CAREER    = '>> 选择职业：'
 STR_ADD_ROLE        = '  [0] 创建角色\t昵称\t\t职业'
-STR_LIST_ROLE       = '  [%d] 选择角色\t%s\t\t%s'
+STR_LIST_ROLE       = '  [%d] 选择角色\t%-8s\t%-8s'
+STR_MENU         = '[0]属性 [1]装备 [2]技能 [3]任务 [4]背包 [5]家园 [9]设置\n>> 选择[0-9]：'
 FMT_LIST_LINE       = ' '+'-'*40+' \n'
 FMT_LIST_HEAD       = '|'+'='*40+'|\n'
-TUPLE_ROLE_CAREER   = ('','','','','','','','','','') 
+TUPLE_ROLE_CAREER   = ('','','','','','','','','','')
