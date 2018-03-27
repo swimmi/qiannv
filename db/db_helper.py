@@ -43,7 +43,7 @@ class DBHelper(object):
         with open('assets/equip', 'r', encoding='utf-8') as f:
             for line in f.readlines():
                 L = line.strip().split(':')
-                cursor.execute("insert into tile (name, desc) values ('%s', '%s')" % (L[0], L[1]))
+                cursor.execute("insert into equip (name, desc) values ('%s', '%s')" % (L[0], L[1]))
                 self.qn.commit()
         cursor.close
         self.qn.close
